@@ -1,0 +1,91 @@
+From a458ea5fdaec29ea204fab3f7397e89a75e2827d Mon Sep 17 00:00:00 2001
+From: shanmuga008 <vshanmugapriyan88@gmail.com>
+Date: Mon, 11 Dec 2023 21:34:18 +0530
+Subject: [PATCH] initial commit
+
+---
+ pg1.html | 10 ++++++++++
+ pg2.html | 12 ++++++++++++
+ pg3.html | 18 ++++++++++++++++++
+ pg9.html |  8 ++++++++
+ 4 files changed, 48 insertions(+)
+ create mode 100644 pg1.html
+ create mode 100644 pg2.html
+ create mode 100644 pg3.html
+ create mode 100644 pg9.html
+
+diff --git a/pg1.html b/pg1.html
+new file mode 100644
+index 0000000..997c157
+--- /dev/null
++++ b/pg1.html
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html>
++<body>
++
++<?php
++echo "My first PHP script!";
++?> 
++
++</body>
++</html>
+diff --git a/pg2.html b/pg2.html
+new file mode 100644
+index 0000000..b1aeee4
+--- /dev/null
++++ b/pg2.html
+@@ -0,0 +1,12 @@
++<!DOCTYPE html>
++<html>
++<body>
++
++<h1>My first PHP page</h1>
++
++<?php
++echo "Hello World!";
++?> 
++
++</body>
++</html>
+diff --git a/pg3.html b/pg3.html
+new file mode 100644
+index 0000000..8b95bab
+--- /dev/null
++++ b/pg3.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html>
++<body>
++
++<?php
++$txt = "Hello world!";
++$x = 5;
++$y = 10.5;
++
++echo $txt;
++echo "<br>";
++echo $x;
++echo "<br>";
++echo $y;
++?>
++
++</body>
++</html>
+diff --git a/pg9.html b/pg9.html
+new file mode 100644
+index 0000000..9b67ddb
+--- /dev/null
++++ b/pg9.html
+@@ -0,0 +1,8 @@
++public class Main {
++  public static void main(String[] args) {
++    boolean isJavaFun = true;
++    boolean isFishTasty = false;    
++    System.out.println(isJavaFun);
++    System.out.println(isFishTasty);
++  }
++}
+-- 
+2.42.0.windows.2
+
